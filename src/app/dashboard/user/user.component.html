@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <h1>User data</h1>
+ <a routerLink='../adduser'> <button type="button" class="btn">Add user</button></a>
+</div>
+
+
+<div class="tab">
+    
+<table id="myTable"  style="border:1px solid rgb(18, 133, 117);;">
+    <tr>
+    <th> First Name</th>
+    <th> Last Name</th>
+    <th>E-mail</th>
+    <th>operation</th>
+    </tr>
+
+ <tr *ngFor="let users of user; let i = index">
+   
+    <td> {{users.firstname }}</td>
+        <td> {{users.lastname }}</td>
+        <td> {{users.email }}</td>
+        <th><button class="btn btn-success" type="button " onclick="edit()" value="Edit">Edit</button>
+            <button  type="button" onclick="viewfun()" class="btn btn-warning" value="Edit">View</button>
+            <button type="button" onclick="userDelete()" value="Edit" class="btn btn-danger">Delete</button>
+        </th>
+    </tr>
+</table>    
+</div>

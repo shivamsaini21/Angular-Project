@@ -1,0 +1,27 @@
+.container{
+    width:60%;
+    height:50%;
+    
+    
+    }
+    
+    
+    span{
+      color:rgb(182, 182, 35);  
+    }
+    .col-md-4{
+     align-items: center;
+     background-color: rgb(28, 182, 161);;
+    text-align: center;
+    padding:4px;
+    border-radius: 16px;
+    border-color: 4px solid black;
+    margin-left: 50%;
+    margin-top: 40px;
+    }
+    .row{
+    
+    
+        padding:8px;
+        
+    }

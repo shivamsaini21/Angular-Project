@@ -1,0 +1,50 @@
+.form1{
+    height: auto;
+    background-color: rgb(18, 133, 117);;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right:150px;
+    padding-top: 20px;
+}
+.form2{
+    height: auto;
+    background-color:rgb(18, 133, 117);;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right:150px;
+}
+ .form3{
+        height: auto;
+        background-color:rgb(18, 133, 117);;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 200px;
+        margin-right:150px;
+    
+}
+.form4{
+    height: auto;
+    background-color: rgb(18, 133, 117);;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right:150px;
+}
+.abc{
+
+    align-items: center;
+    margin-top: 20px;
+    margin-right:50px;
+    margin-left: 50px;
+}
+.b{
+    text-align: center;
+    color: rgb(18, 133, 117);
+
+}

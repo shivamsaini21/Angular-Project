@@ -1,0 +1,26 @@
+
+
+<div class="container-fluid">
+    <h1>Product Details</h1>
+    <a routerLink='../addproduct'> <button type="button" class="btn">Add product</button></a>
+
+</div>
+<div class="tab">
+<table id="myTable"  style="border:1px solid rgb(16, 168, 179);">
+   <th>Name</th>
+   <th>Description</th>
+<th>Images</th>
+   <tr *ngFor="let product of products; let i = index">
+
+        <td> {{product.p_name}} </td>
+        <td> {{product.p_desc}}</td>
+        <td> {{product.p_image}}</td>
+       
+        <th><button class="btn btn-success" type="button " onclick="edit()" value="Edit">Edit</button>
+            <!-- <button type="button" (click)="productDelete()" value="Edit" class="btn btn-danger">Delete</button> -->
+        </th>
+    </tr>   
+    
+</table>    
+</div>
+

@@ -1,0 +1,51 @@
+.container1{
+
+    text-align: center;
+
+}
+
+.ab{
+align-self: auto;
+margin-left: 70px;
+margin-bottom: 60px;
+background-color:rgb(12, 144, 206)
+}
+.cd{
+
+margin-bottom: 60px;
+margin-left: 300px;
+background-color:rgb(12, 144, 206)
+}
+.ef{
+
+    margin-bottom: 60px;
+margin-left: 300px;
+}
+
+.container2{
+text-align: center;
+
+}
+.g
+{
+    align-self: auto;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+.h{
+
+align-self: auto;
+
+    margin-left: 300px;
+    margin-bottom: 60px;
+
+
+}
+.i{
+    align-self: auto;
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+.banner{
+    margin-left: 100px;
+}
